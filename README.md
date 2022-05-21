@@ -1,6 +1,7 @@
 ![image](https://user-images.githubusercontent.com/97450182/167457908-07be1a60-7e86-4bef-b7f0-6bd19efd8b24.png)
 # HoloISO
 SteamOS 3 (Holo) archiso configuration.
+Updates channel: https://t.me/HoloISO
 
 ***Yes, Gabe. SteamOS functions well on a toaster.***
 
@@ -38,7 +39,7 @@ This project attempts to bring the Steam Deck's Holo OS into a generic, installa
 
 - Intel GPUs/iGPUs require a Gamescope and MESA downgrade in order to boot into Steam Deck session. 
 
-> Run `sudo pacman -S extra/mesa multilib/lib32-mesa holo/gamescope` once booted.
+> Boot to "Recovery mode" inside "Additional options for SteamOS", log in using your root password and run `pacman -S extra/mesa multilib/lib32-mesa holo/gamescope` then reboot or hit CTRL+D
 
 Installation process:
 -
